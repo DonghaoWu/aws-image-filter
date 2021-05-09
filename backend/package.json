@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
+  "engines": {
+    "node": "12.18.2"
+  },
   "scripts": {
-    "start": "node .",
+    "start": "node server.js",
     "tsc": "tsc",
     "dev": "ts-node-dev ./src/server.ts",
     "prod": "tsc && node ./www/server.js",
